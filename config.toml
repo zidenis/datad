@@ -1,0 +1,42 @@
+baseURL = "http://www.datad.com.br/"
+languageCode = "pt-BR"
+title = "datad"
+theme = "bs4-custom"
+paginate = 6
+enableRobotsTXT = true
+DefaultContentLanguage = "pt"
+disqusShortname = "datad"
+comments= true
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+  page = "/:slug/"
+
+[params]
+    custom_navbar = true
+    sharingicons = true
+    description = "um site sobre Dart, PostgreSQL, Linux e assuntos relacionados"
+    author = "zidenis"
+    date_format = "02 Jan 2006"
+
+[params.sidebar]
+    about = "um site sobre Dart, PostgreSQL, Linux e assuntos relacionados"
+
+[[menu.navbar]]
+    weight = 1
+    name = "Dart Language"
+    url = "/categories/dart/"
+    identifier = "/imgs/dart-logo_64.png"
+
+[[menu.navbar]]
+    weight = 2
+    name = "PostgreSQL"
+    url = "/categories/postgresql/"
+    identifier = "/imgs/postgresql-logo_64.png"
+
+[[menu.navbar]]
+    weight = 0
+    name = "Linux"
+    url = "/categories/linux/"
+    identifier = "/imgs/linux-logo_64.png"
+
