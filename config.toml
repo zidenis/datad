@@ -15,12 +15,12 @@ comments= true
 [params]
     custom_navbar = true
     sharingicons = true
-    description = "um site sobre Dart, PostgreSQL, Linux e assuntos relacionados"
+    description = "um site sobre Dart language, PostgreSQL e tecnologias relacionadas"
     author = "zidenis"
     date_format = "02 Jan 2006"
 
 [params.sidebar]
-    about = "um site sobre Dart, PostgreSQL, Linux e assuntos relacionados"
+    about = "um site sobre Dart _language_, PostgreSQL e tecnologias relacionadas"
 
 [[menu.navbar]]
     weight = 1
@@ -34,9 +34,9 @@ comments= true
     url = "/categories/postgresql/"
     identifier = "/imgs/postgresql-logo_64.png"
 
-[[menu.navbar]]
-    weight = 0
-    name = "Linux"
-    url = "/categories/linux/"
-    identifier = "/imgs/linux-logo_64.png"
+#[[menu.navbar]]
+#    weight = 0
+#    name = "Linux"
+#    url = "/categories/linux/"
+#    identifier = "/imgs/linux-logo_64.png"
 
