@@ -4,7 +4,7 @@ title = "Tudo em Dart são objetos"
 date = "2017-05-09T18:08:20-03:00"
 slug = "tudo-objeto"
 description = "Sobre o porque de Dart ser uma linguagem orientada à objetos pura"
-draft = true
+draft = false
 publishdate = "2017-04-01"
 tags = ["Language","OOP"]
 
